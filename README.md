@@ -9,7 +9,7 @@
 
 ## SA. 진행 상황
 
-- [ ] Insertion Sort (삽입 정렬)
+- [ ] [Insertion Sort (삽입 정렬)](Insertion/InsertionSort.md)
 - [ ] Selection Sort (선택 정렬)
 - [ ] Bubble Sort (거품 정렬)
 
