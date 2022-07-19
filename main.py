@@ -1,8 +1,12 @@
 import printData as pd
-from Selection import selection as s
+import listGen
 
-unsorted_list = list()
+from Insertion import insertion
 
-pd.printData(unsorted_list, false)
-s.selectionSort(list)
-pd.printData(unsorted_list, true)
+
+# unsorted_list = listGen.generateRandomIntList(10, 0, 30)
+unsorted_list = [9, 8, 7, 6]
+
+pd.printData(unsorted_list, False)
+insertion.insertionSort(unsorted_list)
+pd.printData(unsorted_list, True)
