@@ -1,11 +1,9 @@
 import printData as pd
 import listGen
-
 from Insertion import insertion
 
 
-# unsorted_list = listGen.generateRandomIntList(10, 0, 30)
-unsorted_list = [9, 8, 7, 6]
+unsorted_list = listGen.generateRandomIntList(size=50, min_max=(99, 100))
 
 pd.printData(unsorted_list, False)
 insertion.insertionSort(unsorted_list)

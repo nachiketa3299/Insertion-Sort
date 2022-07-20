@@ -22,7 +22,7 @@ cdate: 2022-07-19
 
 정렬전/정렬후의 데이터를 출력하기 위한 모듈입니다.
 
-- `./<Sorting Algorithm Name>/*.md`
+- `./<Sorting Algorithm Name>/DOCS/<Sorting Algorithm Name>.md`
 
 해당 정렬 알고리즘에 대한 정보와 구현 일지가 적혀 있습니다.
 
@@ -31,6 +31,7 @@ cdate: 2022-07-19
 ## SA. 진행 상황
 
 - [ ] [Insertion Sort (삽입 정렬)](Insertion/InsertionSort.md)
+  - 2022-07-20 Python으로 1차 구현 성공
 - [ ] Selection Sort (선택 정렬)
 - [ ] Bubble Sort (거품 정렬)
 
